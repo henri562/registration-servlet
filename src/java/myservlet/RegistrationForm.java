@@ -48,9 +48,9 @@ public class RegistrationForm extends HttpServlet {
                   + ':' + email);
 
       } catch (IOException ioe) {
-          System.err.println(ioe);
+            System.err.println(ioe);
       }
-      System.out.println("pwd: " +System.getProperty("user.dir"));
+      System.out.println("pwd: " + System.getProperty("user.dir"));
       rpw.println("Your registration was successful.");
   }
 }
